@@ -74,22 +74,22 @@ body {
 } 
 
 .grey {
-  background-color: #ced4da;
-  color: #000;
-} 
-
-.darkblue {
-  background-color: #03045e;
+  background-color: #5db194;
   color: #fff;
 } 
 
+.darkblue {
+  background-color: #fffb00;
+  color: #000;
+} 
+
 .blue {
-  background-color:#023e8a;
+  background-color:#778ed4;
   color: #fff;
 }
 
 .lightblue {
-  background-color: #caf0f8;
+  background-color: #baa560;
   color: #000;
 }
 
@@ -103,6 +103,7 @@ body {
   align-items: center;
   cursor: pointer;
   margin: 10px;
+  box-shadow: rgb(113, 90, 15) 0px 5px 15px, rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset;
 }
 
 .btn:hover {
