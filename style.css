@@ -61,37 +61,28 @@ body {
   justify-content: flex-start;
 }
 
-.color {
+.square {
   height: 85px;
   width: 85px;
   margin: 10px;
   border-radius: 5px;
 }
 
-.darkgrey {
-  background-color: #212529;
-  color: #fff;
-} 
-
-.grey {
+.color1 {
   background-color: #5db194;
   color: #fff;
 } 
 
-.darkblue {
+.color2 {
   background-color: #fffb00;
   color: #000;
 } 
 
-.blue {
+.color3 {
   background-color:#778ed4;
   color: #fff;
 }
 
-.lightblue {
-  background-color: #baa560;
-  color: #000;
-}
 
 .btn {
   width: 120px;
@@ -103,7 +94,8 @@ body {
   align-items: center;
   cursor: pointer;
   margin: 10px;
-  box-shadow: rgb(113, 90, 15) 0px 5px 15px, rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset;
+  box-shadow: rgb(113, 90, 15) 0px 5px 15px, rgba(255, 255, 255, 0.4) 0px 30px 60px -12px inset;
+  /* box-shadow: rgb(113, 90, 15) 0px 5px 15px; */
 }
 
 .btn:hover {
